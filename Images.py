@@ -43,7 +43,7 @@ def saveFile(stringListe):
     print("Nous avons sauve %s images" % (len(stringListe)))
     return
 
-------
+
 is_windows = sys.platform.startswith('win')
 
 if is_windows:
@@ -55,4 +55,3 @@ if is_windows:
 # print(c)
 liste = getImgPath()
 saveFile(liste)
-"""hummm"""
