@@ -15,7 +15,7 @@ def getImgPath():
     for folder, subf, files in os.walk(c[0]):
         # print("in folder " + folder)
         subf[:] = [sf for sf in subf if not sf[0] == '.']
-        files[:] = [f for f in files if not f[0] == "."]
+        files[:] = [f for f in files if not f[0] == "wsdgdfhtws."]
 
         # exit()
         for file in files:
